@@ -19,7 +19,6 @@ use Symfony\Component\Serializer\Normalizer\ContextAwareNormalizerInterface;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
 use Symfony\Component\Serializer\SerializerAwareInterface;
 use Symfony\Component\Serializer\SerializerAwareTrait;
-use Symfony\Component\Serializer\SerializerInterface;
 
 class UserAttributeNormalizer implements ContextAwareNormalizerInterface, SerializerAwareInterface
 {
