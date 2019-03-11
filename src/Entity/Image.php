@@ -76,4 +76,9 @@ class Image
     {
         $this->url = $url;
     }
+
+    public function __toString()
+    {
+        return $this->getId(). ':' .$this->getUrl();
+    }
 }
