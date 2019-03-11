@@ -13,3 +13,7 @@
 ###< lexik/jwt-authentication-bundle ###
 
 /public/images/
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
